@@ -1,0 +1,16 @@
+{
+  "name": "mini-git",
+  "version": "1.0.0",
+  "description": "Os objetos do Git do zero: blob, tree e commit com SHA-1 e zlib, mais índice, add, commit e log.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "migit": "src/cli.js" },
+  "exports": "./src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test \"testes/*.test.js\""
+  },
+  "keywords": ["git", "sha-1", "zlib", "versionamento"],
+  "author": "condeDeveloper",
+  "license": "MIT"
+}
