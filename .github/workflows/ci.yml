@@ -19,4 +19,4 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Testar
-        run: node --test "testes/*.test.js"
+        run: node --test testes/*.test.js
